@@ -1,0 +1,18 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+    cursor: auto;
+    display: inline-flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+a {
+    list-style: none;
+    color: #53C783;
+    font-size: 40px;
+}

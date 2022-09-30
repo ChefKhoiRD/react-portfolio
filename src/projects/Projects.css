@@ -1,0 +1,37 @@
+/* Datacards */
+img {
+    height: 250px;
+    width: 300px;
+}
+
+.card-image{
+    top: 0;
+    object-fit: none;
+    object-position: center top;
+}
+    
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+/* Projects Page */
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    padding: 20px;
+} 
+
+.projects {
+    height: 125vh;
+}
