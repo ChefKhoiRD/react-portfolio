@@ -5,7 +5,7 @@ import pokedex from './projectphotos/pokedex.png';
 import weatherdashboard from './projectphotos/weatherdashboard.png';
 import notetaker from './projectphotos/notetaker.png';
 import gamedeals from './projectphotos/gamedeals.jpg';
-import underataack from './projectphotos/underatackplaceholder.png';
+import underataack from './projectphotos/underatack.png';
 import codequiz from './projectphotos/codequiz.png';
 import './Projects.css';
 
