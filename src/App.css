@@ -1,0 +1,25 @@
+a {
+    list-style: none;
+    color: #53C783;
+    font-size: 40px;
+}
+
+ul li {
+    cursor: auto;
+    display: inline-flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+li:hover {
+    color: rgb(238, 185, 185);
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    color: #53C783;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}

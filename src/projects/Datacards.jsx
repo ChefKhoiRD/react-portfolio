@@ -2,13 +2,13 @@ import {Button, Card, Col, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import './Projects.css';
 
-function ProjectCard(props) {
+const ProjectCard = (props) => {
   return (
     <div className="App">  
       <Container className='p-4'>  
         <Col md="4">  
           <Card>  
-            <Card.Img variant="top" src={props.imgPath} />  
+            <Card.Img className = 'project-image' variant = "top" src = {props.imgPath} />  
             <Card.Body>  
               <Card.Title>{props.title}</Card.Title>  
               <Card.Text>  

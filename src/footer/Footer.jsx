@@ -4,7 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import './Footer.css';
 
-function Footer() {
+const Footer = () => {
     return (
       <section className = "footer">
         <ul className = "footer-icons">

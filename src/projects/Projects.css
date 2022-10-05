@@ -1,13 +1,7 @@
 /* Datacards */
-img {
-    height: 250px;
-    width: 300px;
-}
-
-.card-image{
-    top: 0;
-    object-fit: none;
-    object-position: center top;
+.project-image {
+    height: 275px;
+    width: 400px;
 }
     
 .card {
@@ -20,18 +14,22 @@ img {
 }
 
 /* Projects Page */
-#title {
+.projects {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-header {
+    color: #53C783;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.column {
+.projects-column {
     width: 30%;
     float: left;
     padding: 20px;
 } 
-
-.projects {
-    height: 125vh;
-}

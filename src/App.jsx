@@ -1,12 +1,13 @@
 // Import 
 import React from 'react';
 import About from './about/About';
-import Contact from './contact/Contact';
 import Projects from './projects/Projects';
 import Home from './home/Home';
+import Contact from './contact/Contact';
 import Navbar from './navbar/Navbar';
 import Footer from './footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css';
 
 // Display on page
 const App = () => {

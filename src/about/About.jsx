@@ -1,12 +1,14 @@
 // Imports
 import React from 'react';
+import aboutBackground from '../home/homeAssets/homebackground.png';
 import './About.css';
 
 // About page
-function About() {
+const About = () => {
     return (
         <section className = 'about'>
             <div className = 'page-content'>
+                <img  className = 'about-background' src = {aboutBackground} alt = 'background'></img>
                 <div className = 'about-content'>
                     <h1 className = 'about-header'>
                         About Me
